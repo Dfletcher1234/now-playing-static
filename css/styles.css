@@ -247,15 +247,22 @@ figure {
 
 }
 
-.movie-overview{
+.movie-details{
   display: inline-block;
+}
+
+.movie-overview{
+  display: block;
+
 
 }
 .movie-backdrop{
   width: 100%;
 }
 
+.
 
+}
 
 
 
