@@ -200,14 +200,14 @@ figure {
 
 @media (min-width: 768px){
   nav.site-nav {
-      float: left;
+      float: 4rem;
       width: 70px;
       height: 100%;
       bottom: inherit;
       right: inherit;
 
   }
-  .site-nav-item{
+.site-nav-item{
     padding-top: 40px;
   }
 .site-nav{
@@ -234,13 +234,25 @@ figure {
   position: fixed;
   z-index: 150;
   left: 0;
-  width: 6%;
+  width: 2em
 }
 
-.movie-details {
-  left: 75px;
+.movie {
+  /*left: 4rem;*/
+  /*right: 4rem;*/
+  padding-left: 4rem;
+  position: inherit;
+  width: 100%;
 
 
+}
+
+.movie-overview{
+  display: inline-block;
+
+}
+.movie-backdrop{
+  width: 100%;
 }
 
 
