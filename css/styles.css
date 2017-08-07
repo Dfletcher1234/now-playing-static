@@ -305,19 +305,38 @@ figure {
   color: white;
 }
 
+div .movie-details{
+  display: block;
+
+}
+
 @media (min-width: 992px){
 
 
-  .movie-poster{
-    display: block;
+  article:first-child{
+     display: none;
+   }
+
+
+
+   .movie-poster{
+    display: inline-block;
     position: relative;
+    float: left;
+    width: 33%;
+
   }
+  .movie-overview{
+    display: none;
+  }
+.movie-backdrop{
+  display: none;
 
+}
 
-  
-
-
-
-
+.movie-details{
+  display: inline-block;
+  /*float: left;*/
+  width: 33%;
 
 }
