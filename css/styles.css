@@ -190,6 +190,7 @@ figure {
   background-color: #333333;
   color: #ffffff;
   padding: 1em;
+  display: block;
 }
 
 .about > p {
@@ -244,42 +245,78 @@ figure {
   position: inherit;
   width: 100%;
 
-
 }
 
+
+.movie-title{
+  color: black;
+
+}
 .movie-details{
-  display: inline-block;
+  /*display: inline-block;*/
+  position: relative;
+  /*left: 15px;*/
+  /*top: -155px;*/
+
+
+}
+.movie{
+  width: auto;
+  height: auto;
+
 }
 
 .movie-overview{
   display: block;
+  color: black;
 
 
 }
 .movie-backdrop{
   width: 100%;
 }
-
-.
-
+.footer-nav{
+  float: left;
+  position: relative;
+  width: 50%;
+  background: black;
+  color: white;
+  height: auto;
+  padding: 26px;
+  text-align: center;
+  padding-left: 75px;
 }
 
 
-
-
-
-
-
+.site-footer{
+  background-color: black;
 
 }
+.about{
+  float: right;
+  position: relative;
+  width: 50%;
+  background-color: black;
+
+  color: white;
+}
+.about p{
+  background-color: : black;
+  color: white;
+}
+
+@media (min-width: 992px){
 
 
-
-
-
-
+  .movie-poster{
+    display: block;
+    position: relative;
   }
-}
+
+
+  
+
+
 
 
 
